@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Calculator</title>
-	</head>
-	<body>
-		<div class="container">
-			<div class="screen">
-				<div class="previous-view">1</div>
-				<div class="current-view">2</div>
-			</div>
-			<div class="buttons-container">
-				<button class="btn red" onclick="audio.play();" data-delete>C</button>
-				<button class="btn red" onclick="audio.play();" data-all-clear>
-					CA
-				</button>
-				<button class="btn orange" onclick="audio.play();" data-operation>
-					%
-				</button>
-				<button class="btn orange" onclick="audio.play();" data-operation>
-					÷
-				</button>
-				<button class="btn" onclick="audio.play();" data-number>7</button>
-				<button class="btn" onclick="audio.play();" data-number>8</button>
-				<button class="btn" onclick="audio.play();" data-number>9</button>
-				<button class="btn orange" onclick="audio.play();" data-operation>
-					*
-				</button>
-				<button class="btn" onclick="audio.play();" data-number>4</button>
-				<button class="btn" onclick="audio.play();" data-number>5</button>
-				<button class="btn" data-number>6</button>
-				<button class="btn orange" onclick="audio.play();" data-operation>
-					-
-				</button>
-				<button class="btn" onclick="audio.play();" data-number>1</button>
-				<button class="btn" onclick="audio.play();" data-number>2</button>
-				<button class="btn" onclick="audio.play();" data-number>3</button>
-				<button class="btn orange" onclick="audio.play();" data-operation>
-					+
-				</button>
-				<button class="btn" onclick="audio.play();" data-number>0</button>
-				<button class="btn" onclick="audio.play();" data-number>.</button>
-				<button class="btn orange btn-lg" onclick="audio.play();" data-equals>
-					=
-				</button>
-			</div>
-		</div>
-		<script src="app.js"></script>
-		<script type="text/javascript">
-			const audio = new Audio();
-			audio.src = './assets/audio/Click-00.mp3';
-		</script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <div class="previous-view">1</div>
+        <div class="current-view">2</div>
+      </div>
+      <div class="buttons-container">
+        <button class="btn red" onclick="audio.play();" data-delete>C</button>
+        <button class="btn red" onclick="audio.play();" data-all-clear>
+          CA
+        </button>
+        <button class="btn orange" onclick="audio.play();" data-operation>
+          %
+        </button>
+        <button class="btn orange" onclick="audio.play();" data-operation>
+          ÷
+        </button>
+        <button class="btn" onclick="audio.play();" data-number>7</button>
+        <button class="btn" onclick="audio.play();" data-number>8</button>
+        <button class="btn" onclick="audio.play();" data-number>9</button>
+        <button class="btn orange" onclick="audio.play();" data-operation>
+          *
+        </button>
+        <button class="btn" onclick="audio.play();" data-number>4</button>
+        <button class="btn" onclick="audio.play();" data-number>5</button>
+        <button class="btn" onclick="audio.play();" data-number>6</button>
+        <button class="btn orange" onclick="audio.play();" data-operation>
+          -
+        </button>
+        <button class="btn" onclick="audio.play();" data-number>1</button>
+        <button class="btn" onclick="audio.play();" data-number>2</button>
+        <button class="btn" onclick="audio.play();" data-number>3</button>
+        <button class="btn orange" onclick="audio.play();" data-operation>
+          +
+        </button>
+        <button class="btn" onclick="audio.play();" data-number>0</button>
+        <button class="btn" onclick="audio.play();" data-number>.</button>
+        <button class="btn orange btn-lg" onclick="audio.play();" data-equals>
+          =
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+      const audio = new Audio();
+      audio.src = './assets/audio/Click-00.mp3';
+    </script>
+  </body>
 </html>
