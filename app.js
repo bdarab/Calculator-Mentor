@@ -1,6 +1,6 @@
 class Calculator{
   constructor(preScreen, currScreen){
-    this.preScreen = preScreen;
+    this.prevScreen = preScreen;
     this.currScreen = currScreen;
     this.clear()
   }
@@ -10,7 +10,7 @@ class Calculator{
     this.operation = undefined
   }
   addNumberToScreen(number){
-this.currDisplay = number
+    this.currDisplay = this.currDisplay.toString() + number.toString()
   }
   updateScreen(){
     this.currScreen.innerText = this.currDisplay
